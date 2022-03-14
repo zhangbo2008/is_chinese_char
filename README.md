@@ -3,6 +3,7 @@
 ```
 
 def _is_chinese_char(cp):
+    cp=ord(cp)
     """Checks whether CP is the codepoint of a CJK character."""
     # This defines a "chinese character" as anything in the CJK Unicode block:
     #   https://en.wikipedia.org/wiki/CJK_Unified_Ideographs_(Unicode_block)
