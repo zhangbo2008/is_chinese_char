@@ -1,6 +1,6 @@
 # is_chinese_char
 
-
+```
 
 def _is_chinese_char(cp):
     """Checks whether CP is the codepoint of a CJK character."""
@@ -25,3 +25,4 @@ def _is_chinese_char(cp):
         return True
 
     return False
+```
